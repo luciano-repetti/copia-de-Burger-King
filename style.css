@@ -1,0 +1,152 @@
+main{
+    background-color: #ECDFD0;
+}
+
+/*NavBar*/
+.navbar{
+    background-color: #F5EBDC;
+}
+.navbar-nav .nav-link.active{
+    border-radius: 20px;
+    font-family: FlameSans-Regular;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: #ECDFD0;
+    color: rgba(215, 35, 0, 0.8) !important;
+    border-radius: 20px;
+}
+
+.navbar{
+    background-color: #F5EBDC;
+}
+
+/*Carousel*/
+
+.carousel{
+    width: 100%;
+    height: 65vh;
+}
+.carousel-item{
+    height: 65vh;
+    width: 100%;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 14px !important;
+    height: 14px !important;
+    background-clip: initial !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+    border-radius: 50% !important;
+}
+
+.carousel-indicators [data-bs-target].active{
+    opacity: 1 !important;
+}
+
+.uno{
+    background-image: url(https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-burger-king-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Landing-MixandMatch.jpg);
+}
+.dos{
+    background-image: url(https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-burger-king-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/HomeBanner_KINGVEGETAL.jpg);
+}
+.tres{
+    background-image: url(https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-burger-king-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/HomeBanner_Chimiburga.jpg);
+}
+
+.img-redondo{
+    border-radius: 15px;
+}
+
+/* Seccion tres */
+
+.seccionTres{
+    background-color: rgba(233, 208, 170, 0.6);;
+    border-radius: 15px;
+    gap: 25px;
+}
+
+input{
+    width: 20vw !important;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.fondorojo{
+    background-color: #d72300;
+}
+
+.botones button img{
+    height: 3rem;
+    width: 3rem;
+}
+
+button{
+    box-shadow: 0 2px 4px 0 rgba(44, 44, 49, 0.1);
+    width: 10%;
+    padding: 0 !important;
+    border-radius: 10px !important;
+}
+
+.botonEnvio{
+    box-shadow: none;
+    width: 40px;
+    padding: 1px 6px !important;
+    border-radius: 0 !important;
+}
+
+.btn-check:focus+.btn-light, .btn-light:focus{
+    box-shadow: 0 2px 4px 0 rgba(44, 44, 49, 0.1), 0 0 0 3px #d72400 !important;
+}
+
+.btn{
+    padding-inline: 4rem !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-pedido{
+    padding-inline: 6rem !important;
+    padding-top: .2rem !important;
+    padding-bottom: .2rem !important; 
+    background-color: #d72300;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.card{
+    border-radius: 10px !important;
+}
+
+footer{
+    background-color: #502314;
+}
+
+.text-primary{
+    color: white !important;
+}
+
+.text-secundary{
+    color: white;
+    text-decoration: none;
+}
+
+.text-secundary:hover{
+    color: white;
+}
+
+span{
+    color: white;
+    font-size: 2vh;}
+
+hr{
+    color: white;
+}
